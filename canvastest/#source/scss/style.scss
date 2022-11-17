@@ -1,0 +1,30 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Rubik+Dirt&display=swap');
+
+
+#canvas1{
+	position: absolute;
+}
+.controls {
+	position: absolute;
+	z-index: 100;
+}
+
+img{
+	display: none;
+}
+
+button{
+	padding: 10px;
+	margin: 20px;
+	font-size: 30px;
+	font-family: 'Poor Story';
+	background: white; 
+	transition: 0.5s;
+	border-radius: 60%;
+}
+button:hover{
+	background: black;
+	color: white;
+}
